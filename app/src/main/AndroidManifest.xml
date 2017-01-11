@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.jasperzevering.raumfahrt.raumfahrtdaten">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".planetendaten.pdatenmenue">
+        </activity>
+        <activity android:name=".planetendaten.planetenbestandteile"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".planetendaten.pdatenansicht"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".planetendaten.planetenatmo"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+
+        <activity android:name=".planetendaten.planetenorbitdaten"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity android:name=".planetendaten.psystemFoto"
+            >
+        </activity>
+        <activity android:name=".planetendaten.planetenfotoeinzeln"
+            >
+        </activity>
+
+        <activity android:name=".main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

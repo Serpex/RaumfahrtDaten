@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.jasperzevering.raumfahrt.raumfahrtdaten.main">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSonne"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:text="@string/Sonne"
+        android:text="@string/Sonne" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bMerkur"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Merkur"
+        android:layout_below="@+id/bSonne"
+        android:layout_alignLeft="@+id/bSonne"
+        android:layout_alignStart="@+id/bSonne"
+        android:text="@string/Merkur" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bVenus"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Venus"
+        android:layout_below="@+id/bMerkur"
+        android:layout_alignLeft="@+id/bMerkur"
+        android:layout_alignStart="@+id/bMerkur"
+        android:text="@string/Venus" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bErde"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Erde"
+        android:layout_below="@+id/bVenus"
+        android:layout_alignLeft="@+id/bVenus"
+        android:layout_alignStart="@+id/bVenus"
+        android:text="@string/Erde" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bMars"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Mars"
+        android:layout_below="@+id/bErde"
+        android:layout_alignLeft="@+id/bErde"
+        android:layout_alignStart="@+id/bErde"
+        android:text="@string/Mars" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bJupiter"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Jupiter"
+        android:layout_below="@+id/bMars"
+        android:layout_alignLeft="@+id/bMars"
+        android:layout_alignStart="@+id/bMars"
+        android:text="@string/Jupiter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bSaturn"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Saturn"
+        android:layout_below="@+id/bJupiter"
+        android:layout_alignLeft="@+id/bJupiter"
+        android:layout_alignStart="@+id/bJupiter"
+        android:text="@string/Saturn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bMond"
+        tools:text="@string/Mond"
+        android:layout_alignBaseline="@+id/bErde"
+        android:layout_alignBottom="@+id/bErde"
+        android:layout_toRightOf="@+id/bVenus"
+        android:layout_toEndOf="@+id/bVenus"
+        android:text="@string/Mond" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bPluto"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Pluto"
+        android:layout_below="@+id/bNeptun"
+        android:layout_alignLeft="@+id/bNeptun"
+        android:layout_alignStart="@+id/bNeptun"
+        android:text="@string/Pluto" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:srcCompat="@drawable/psystem2"
+        android:id="@+id/pdatenPsystemfoto"
+        android:layout_marginBottom="-90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="220dp" />
+
+    <Button
+        android:text="@string/Uranus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bUranus"
+        android:layout_below="@+id/bSaturn"
+        android:layout_alignLeft="@+id/bSaturn"
+        android:layout_alignStart="@+id/bSaturn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bNeptun"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="0dp"
+        tools:text="@string/Neptun"
+        android:text="@string/Neptun"
+        android:layout_below="@+id/bUranus"
+        android:layout_alignLeft="@+id/bUranus"
+        android:layout_alignStart="@+id/bUranus" />
+
+    <Button
+        android:text="@string/Zurueck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bZurueck"
+        android:layout_below="@+id/bPluto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+</ScrollView>

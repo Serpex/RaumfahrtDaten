@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">RaumfahrtDaten</string>
+    <string name="pdaten">Planetendaten(inkl Sonne)</string>
+    <string name="Erde">Erde</string>
+    <string name="Sonne">Sonne</string>
+    <string name="Mars">Mars</string>
+    <string name="Venus">Venus</string>
+    <string name="Merkur">Merkur</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="Saturn">Saturn</string>
+    <string name="Neptun">Neptun</string>
+    <string name="Pluto">Pluto (Zwergplanet)</string>
+    <string name="Mond">Mond</string>
+    <string name="Zurueck">Zurück</string>
+    <string name="Beenden">Beenden</string>
+    <string name="Durchmesser">Durchmesser</string>
+    <string name="Masse">Masse</string>
+    <string name="MittlereDichte">Mittlere Dichte</string>
+    <string name="Fallbeschleudnigung">Fallbeschelunigung</string>
+    <string name="Albedo">geometrischer Albedo</string>
+
+    <string name="Rotationsperiode">Rotationsperiode</string>
+    <string name="Orbitdaten">Orbitdaten</string>
+    <string name="Bestandteile">Bestandteile</string>
+    <string name="Bild" >Bild</string>
+    <string name="Fluchtgeschwindigkeit">Fluchtgeschwindigkeit</string>
+
+    <string name="Atmosphaere">Atmosphäre</string>
+    <string name="Wasserstoff">Wasserstoff</string>
+    <string name="Helium">Helium</string>
+    <string name="Sauerstoff">Sauerstoff</string>
+    <string name="Natrium">Natrium</string>
+    <string name="Kalium">Kalium</string>
+
+    <string name="Neon">Neon</string>
+    <string name="Stickstoff">Stickstoff</string>
+    <string name="Kohlenstoff">Kohlenstoff</string>
+    <string name="grosseHalbachse">A (Große Halbachse)</string>
+    <string name="Eexzentrizit">E (Exzentrizität)</string>
+    <string name="iinklination">i (Inklination)</string>
+    <string name="vgeschwidnigkeit">v (Geschwindigkeit)</string>
+    <string name="Perihel">Perihel</string>
+    <string name="Apohel" >Apohel</string>
+    <string name="Apogaeum">Apogäum</string>
+    <string name="Perigaeum">Perigäum</string>
+    <string name="siderischeumlaufzeit">Siderische Umlaufzeit</string>
+    <string name="SynodischeUmlaufzeit">Synodische Umlaufzeit</string>
+    <string name="Druck"> Druck</string>
+    <string name="Tdurchschnitt">T durchschnitt</string>
+    <string name="Uranus">Uranus</string>
+
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Planetname"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Durchmessertext"
+        android:text="@string/Durchmesser" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/durchmesser" />
+
+    <TextView
+        android:text="@string/Masse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Massetext" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/masse" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mittleredichtetext"
+        android:text="@string/MittlereDichte" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/mDichte" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fallbeschleunigungtext"
+        android:text="@string/Fallbeschleudnigung" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/fallbeschleunigung" />
+
+    <TextView
+        android:text="@string/Fluchtgeschwindigkeit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fluchtgeschwindigkeittext" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Fluchtgeschwindigkeit" />
+
+    <TextView
+        android:text="@string/Albedo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/albedotext" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Albedo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rotationsperiodetext"
+        android:text="@string/Rotationsperiode" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Rotationsperiode"
+         />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <Button
+            android:text="@string/Orbitdaten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bOrbitdaten"
+        android:layout_row="0"
+        android:layout_column="4" />
+
+
+
+        <Button
+            android:text="@string/Bestandteile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bBestandteile"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:text="@string/Atmosphaere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bAtmosphaere"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="@string/Bild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bBild"
+            android:layout_row="0"
+            android:layout_column="2" />
+    <Button
+        android:text="@string/Zurueck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpdzurueck"
+        android:layout_row="0"
+        android:layout_column="5" />
+    </GridLayout>
+</LinearLayout>
+</ScrollView>

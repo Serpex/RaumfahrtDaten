@@ -130,6 +130,7 @@ public class pdatenmenue extends AppCompatActivity {
                 Intent i = new Intent(pdatenmenue.this, pdatenansicht.class);
                 i.putExtra("planetx", "Pluto");
                 startActivity(i);
+                
             }
         });
 

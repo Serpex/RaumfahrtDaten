@@ -16,6 +16,7 @@ public class pdatenansicht extends AppCompatActivity {
     Button Bestandteile,Foto, Atmosphaere,Orbitdaten, Zurueck;
 
 
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
